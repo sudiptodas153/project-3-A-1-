@@ -94,3 +94,109 @@ nav {
   border-radius: 6px;
   font-weight: 700;
 }
+
+
+/* main section style */
+
+main{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+/* The Vision of Future section style */
+
+.future-title{
+  font-size: 28px;
+  font-weight: bold;
+} 
+
+.future-description{
+  font-size: 14px;
+  color: #0e0e0e7a;
+}
+
+
+.images{
+  width: 40px;
+}
+
+
+.card{
+  max-width: 250px;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.card-1{
+  background-color: #548ff531;
+}
+.card-2{
+  background-color: #C6E4D6;
+}
+.card-3{
+  background-color: #ffc43934;
+}
+
+
+.card-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+
+.card-btn-1{
+background-color: #5490F5;
+color: white;
+border: none;
+width: 90px;
+height: 30px;
+padding: 5px;
+border-radius: 6px;
+font-weight: 600;
+}
+.card-btn-2{
+  background-color: #09A15C;
+color: white;
+border: none;
+width: 90px;
+height: 30px;
+padding: 5px;
+border-radius: 6px;
+font-weight: 600;
+
+}
+.card-btn-3{
+  background-color: #FFC239;
+color: white;
+border: none;
+width: 90px;
+height: 30px;
+padding: 5px;
+border-radius: 6px;
+font-weight: 600;
+
+}
+
+
+.younus-story{
+  color: rgba(0, 0, 0, 0.671);
+}
+
+
+.story-section{
+  margin-top: 40px;
+  border: 1px solid #0e0e0e13;
+  border-radius: 13px;
+  padding: 35px 20px;
+  box-shadow: 0px 6px 50px 0 rgb(238, 236, 236);
+  background-image: url('../assets/quote-bg.png');
+  background-repeat: no-repeat;
+  background-size: 50px;
+  background-position: 25px 20px;
+  
+  
+
+}
