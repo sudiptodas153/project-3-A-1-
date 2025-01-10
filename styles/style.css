@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* font style */
+
+.fira-sans-font {
+  font-family: "Fira Sans", serif;
+}
+
+
+/* color share */
+
+.btn-color {
+  background-color: #006A50;
+  color: white;
+}
+
+
+/* share hover btn */
+
+.btn-magic:hover {
+  background-color: rgba(241, 7, 7, 0.815);
+  color: white;
+  border: none;
+}
+
+
+/* Body */
+.body-style {
+  margin: 0 30px;
+}
+
+
+/* nav style */
+
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2px;
+}
+
+.nav-title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+.nav-btn {
+  color: #006A50;
+  border: 1px solid #006A50;
+  width: 66px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+
+
+/* banner section style */
+
+.banner {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  justify-content: center;
+  background-color: #C6E4D6;
+  border-radius: 17px;
+  padding: 50px 0px;
+}
+
+
+
+.banner-image {
+  width: 350px;
+}
+
+
+.banner-name {
+  color: #0e0e0e7a;
+}
+
+
+.banner-title {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+
+.banner-btn {
+  border: none;
+  padding: 13px 25px;
+  border-radius: 6px;
+  font-weight: 700;
+}
