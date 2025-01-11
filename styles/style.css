@@ -64,10 +64,10 @@ nav {
   display: flex;
   align-items: center;
   gap: 60px;
-  justify-content: center;
+  justify-content: space-between;
   background-color: #C6E4D6;
   border-radius: 17px;
-  padding: 50px 0px;
+  padding: 50px 40px;
 }
 
 
