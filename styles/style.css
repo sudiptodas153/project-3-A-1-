@@ -98,47 +98,49 @@ nav {
 
 /* main section style */
 
-main{
+main {
   margin-top: 80px;
   margin-bottom: 80px;
 }
 
 /* The Vision of Future section style */
 
-.future-title{
+.future-title {
   font-size: 28px;
   font-weight: bold;
-} 
+}
 
-.future-description{
+.future-description {
   font-size: 14px;
   color: #0e0e0e7a;
 }
 
 
-.images{
+.images {
   width: 40px;
 }
 
 
-.card{
+.card {
   max-width: 250px;
   padding: 30px;
   border-radius: 15px;
 }
 
-.card-1{
+.card-1 {
   background-color: #548ff531;
 }
-.card-2{
+
+.card-2 {
   background-color: #C6E4D6;
 }
-.card-3{
+
+.card-3 {
   background-color: #ffc43934;
 }
 
 
-.card-container{
+.card-container {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -147,46 +149,48 @@ main{
 }
 
 
-.card-btn-1{
-background-color: #5490F5;
-color: white;
-border: none;
-width: 90px;
-height: 30px;
-padding: 5px;
-border-radius: 6px;
-font-weight: 600;
+.card-btn-1 {
+  background-color: #5490F5;
+  color: white;
+  border: none;
+  width: 90px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 6px;
+  font-weight: 600;
 }
-.card-btn-2{
+
+.card-btn-2 {
   background-color: #09A15C;
-color: white;
-border: none;
-width: 90px;
-height: 30px;
-padding: 5px;
-border-radius: 6px;
-font-weight: 600;
+  color: white;
+  border: none;
+  width: 90px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 6px;
+  font-weight: 600;
 
 }
-.card-btn-3{
+
+.card-btn-3 {
   background-color: #FFC239;
-color: white;
-border: none;
-width: 90px;
-height: 30px;
-padding: 5px;
-border-radius: 6px;
-font-weight: 600;
+  color: white;
+  border: none;
+  width: 90px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 6px;
+  font-weight: 600;
 
 }
 
 
-.younus-story{
+.younus-story {
   color: rgba(0, 0, 0, 0.671);
 }
 
 
-.story-section{
+.story-section {
   margin-top: 40px;
   border: 1px solid #0e0e0e13;
   border-radius: 13px;
@@ -196,8 +200,8 @@ font-weight: 600;
   background-repeat: no-repeat;
   background-size: 50px;
   background-position: 25px 20px;
-  
-  
+
+
 
 }
 
@@ -205,22 +209,22 @@ font-weight: 600;
 
 /* Recent news style */
 
-.news-container{
+.news-container {
   margin-top: 80px;
 }
 
 
-.news-cards{
+.news-cards {
   margin-top: 40px;
 }
 
-.news-image{
+.news-image {
   border-radius: 20px;
-  width: 350px;
+  width: 380px;
 }
 
 
-.news-card{
+.news-card {
   display: flex;
   align-items: center;
   /* justify-content: center; */
@@ -231,19 +235,144 @@ font-weight: 600;
   margin-top: 30px;
 }
 
-.news-title{
+.news-title {
   font-size: 23px;
 }
 
 
-.news-sub-image{
+.news-sub-image {
   width: 100px;
 }
 
 
-.news-btn{
+.news-btn {
   width: 90px;
   height: 30px;
   border: none;
   border-radius: 6px;
+}
+
+
+.time-date {
+  display: flex;
+  gap: 10px;
+}
+
+
+/* donate section style */
+
+.donate-bd {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.donate-title {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+
+.donate-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+
+.donate-money {
+  border: 1px solid rgba(128, 128, 128, 0.274);
+  box-shadow: 0px 6px 50px 0 rgb(238, 236, 236);
+  width: 120px;
+  border-radius: 7px;
+}
+
+
+.donate-card:hover{
+  background-color: #fc07db59;
+}
+
+.donate-privet-card{
+  background-color: #C6E4D6;
+}
+
+
+.donate-field{
+  margin-top: 30px;
+}
+
+
+#amount{
+  width: 500px;
+  height: 30px;
+  border: none;
+  box-shadow: 0px 6px 50px 0 rgb(218, 217, 217);
+  font-size: 12px;
+  text-align: center;
+  color: #0E0E0E;
+}
+
+
+.donate-btn{
+  margin-top: 20px;
+  height: 35px;
+}
+
+
+/* subscribe section */
+.subscribe-part{
+  background-color: #C6E4D6;
+  text-align: center;
+  padding: 80px 200px;
+  margin-top: 70px;
+  border-radius: 20px;
+}
+
+
+#subscribed{
+  width: 70%;
+  height: 30px;
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 5px;
+  padding-left: 25px;
+  color: #0e0e0e46;
+}
+
+
+.input-data{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.btn-sub{
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+ 
+}
+
+
+.not-scam{
+  font-size: 12px;
+}
+
+/* footer section style */
+
+footer{
+  text-align: center;
+  margin: 40px 0px;
+  padding: 0px 50px;
+}
+
+
+footer>div{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
